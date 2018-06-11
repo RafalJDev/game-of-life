@@ -24,8 +24,6 @@ public class GameController {
 	// For generating random thread sleep times
     private Random randomGenerator = new Random();
     
-    prv;
-
 	// Clicking the "New Game" button on the main page loads the cell seletion page
     @RequestMapping("/new")
     public ModelAndView newGame() {
